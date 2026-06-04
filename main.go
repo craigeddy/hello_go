@@ -1,3 +1,4 @@
+// Package main demonstrates the animals package by creating and interacting with Dog and Cat instances.
 package main
 
 import "hello_go/animals"
