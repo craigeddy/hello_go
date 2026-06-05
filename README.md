@@ -35,6 +35,13 @@ A learning project for Go fundamentals.
 - goimports is a popular extension that also manages import statements.
 - Most editors run gofmt on save automatically.
 
+### Doc Comments
+- Doc comments use the `//` style (not `/* */` blocks) and appear directly above declarations with no blank line.
+- Package-level comments start with "Package <name>" and describe the package's purpose.
+- All exported types, functions, and methods should have doc comments.
+- Doc comments become part of the GoDoc documentation and appear in IDE intellisense/hover tooltips.
+- Comments should be concise and start with the name being documented (e.g., "Dog represents a dog with a name.").
+
 ## Project Structure
 
 ```r
