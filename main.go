@@ -13,4 +13,9 @@ func main() {
 	fmt.Printf("Create a new cat named %s\n", cat.Name())
 	dog.Talk()
 	cat.Talk()
+
+	ferret := animals.NewFerret("FerretLee", "Angora")
+	fmt.Printf("Created a new %s ferret named %s\n",
+		ferret.Breed(), ferret.Name())
+	ferret.Talk()
 }
